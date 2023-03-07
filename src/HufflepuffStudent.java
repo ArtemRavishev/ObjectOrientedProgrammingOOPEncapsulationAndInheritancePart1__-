@@ -40,7 +40,7 @@ public class HufflepuffStudent extends  HogwartsStudent {
         } else if (ability1 < ability2) {
             System.out.println("Пуфендуец " + getNameAndSurname() + " лучше чем Пуфендуец " + hufflepuffStudent.getNameAndSurname() + " : " + ability1 + " VS " + ability2);
         } else {
-            System.out.println("Пуфендуец " + getNameAndSurname() + " такой же,как и Пуфендуец " + hufflepuffStudent.getNameAndSurname() + " : " + ability1 + " VS " + ability2);
+            System.out.println("Пуфендуец " + getNameAndSurname() + " точно такой же,как и Пуфендуец " + hufflepuffStudent.getNameAndSurname() + " : " + ability1 + " VS " + ability2);
         }
     }
 
