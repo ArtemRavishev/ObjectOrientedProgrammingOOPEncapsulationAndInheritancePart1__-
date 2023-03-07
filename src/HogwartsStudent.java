@@ -36,7 +36,7 @@ public abstract class HogwartsStudent {
         } else if (ability1 < ability2) {
             System.out.println("Студент  " + getNameAndSurname() + " лучше чем студент " + hogwartsStudent.getNameAndSurname() + " : " + ability1 + " VS " + ability2);
         } else {
-            System.out.println("Студент " + getNameAndSurname() + " такой же, как студент " + hogwartsStudent.getNameAndSurname() + " : " + ability1 + " VS " + ability2);
+            System.out.println("Студент " + getNameAndSurname() + " точно такой же, как студент " + hogwartsStudent.getNameAndSurname() + " : " + ability1 + " VS " + ability2);
 
         }
     }

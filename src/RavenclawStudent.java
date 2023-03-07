@@ -39,7 +39,7 @@ public class RavenclawStudent extends  HogwartsStudent {
         } else if (ability1 < ability2) {
             System.out.println("Когтевранец " + getNameAndSurname() + " лучше чем Когтевранец " + ravenclawStudent.getNameAndSurname() + " : " + ability1 + " VS " + ability2);
         } else {
-            System.out.println("Когтевранец " + getNameAndSurname() + " такой же,как и Когтевранец " + ravenclawStudent.getNameAndSurname() + " : " + ability1 + " VS " + ability2);
+            System.out.println("Когтевранец " + getNameAndSurname() + " точно такой же,как и Когтевранец " + ravenclawStudent.getNameAndSurname() + " : " + ability1 + " VS " + ability2);
 
         }
     }

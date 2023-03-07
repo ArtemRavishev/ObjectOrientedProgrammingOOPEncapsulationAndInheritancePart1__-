@@ -42,7 +42,7 @@ public class SlytherinStudent extends  HogwartsStudent {
         } else if (ability1 < ability2) {
             System.out.println("Слизернец " + getNameAndSurname() + " лучше чем Слизернец " +  slytherinStudent.getNameAndSurname() + " : " + ability1 + " VS " + ability2);
         } else {
-            System.out.println("Слизернец " + getNameAndSurname() + " такой же,как и Слизернец " +  slytherinStudent.getNameAndSurname() + " : " + ability1 + " VS " + ability2);
+            System.out.println("Слизернец " + getNameAndSurname() + " точно такой же,как и Слизернец " +  slytherinStudent.getNameAndSurname() + " : " + ability1 + " VS " + ability2);
 
         }
     }
